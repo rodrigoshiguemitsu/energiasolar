@@ -25,7 +25,9 @@
         padding-top: 10px;
         margin-left: 40px;
     }
-
+    #telamaior{
+        display: none;
+    }
 
 
     i#burguer{
@@ -236,6 +238,516 @@
             margin-top: 20px;
         }
         #footer1 p {
+            font-size: 1.2em;
+            margin-left: 20px;
+            margin-top: 35px;
+            color: black;
+        }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    *{
+        max-width: 1023px;
+        margin: auto;
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    main{
+        max-width: 1023px;
+        margin: auto;
+    }
+    #hamb{
+        display: none;
+    }
+    #celularlogo{
+        display: none;
+    }
+    header img{
+        height: 80px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        margin-left: 80px;
+    }
+    #telamaior{
+        height: 100px;
+        background-color: #00B331;
+        display: flex;
+        width: 100%;
+    }
+
+
+    i#burguer{
+        background-color:#00B331;
+        color:white;
+        margin-top: 20px;
+        margin-left: 280px;
+        height: 50px;
+        width: 50px;
+        }
+        i#burguer:hover{
+            background-color: #00B331;
+            color: white;
+    
+        }
+        
+        menu ul{
+            list-style-type: none;
+            display: flex;
+            z-index:999;
+            width: 100%;
+            padding-left: 110px;
+        }
+        menu a{
+            display:flex;
+            padding: 10px;
+            text-decoration:none;
+            background-color:#00B331;
+            color: rgba(0, 0, 0, 0.596);
+            text-align: center;
+            margin-top: 60px;
+            margin-left: 25px;
+            border-radius:5px 5px 0px 0px;
+            
+        }
+        
+        menu > ul > li > a:hover{
+            background-color: black;
+            color:white;
+        }
+
+        #inicio{
+            max-width: 1023px;
+            height: 400px;
+            width: 100%px;
+            background-repeat: no-repeat;
+            background-image: url(imagens/placassolares1024px.jpg);
+            background-position-x: center;
+        }
+        #inicio1{
+            max-width: 1023px;
+            height: 400px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.507);
+        }
+        #ener1{
+            padding-top: 40px;
+            margin-bottom: -20px;
+            text-align: center;
+            color:#00B331;
+            text-shadow: 0.2px 0.2px 0.1px white;
+            font-size: 3em;
+
+        }
+        #aga1inicio{
+            width: 90%;
+            text-align: center;
+            font-size: 3.5em;
+            padding-top: 15px;
+            margin-left: 55px;
+            color:white;
+                       
+        }
+        #aga1inicio li{
+            text-shadow: 1px 0.5px 0.3px black;
+            list-style: none; 
+            margin-top: 30PX;
+        }
+
+        #segmentos{
+            font-size: 1.2em;
+            padding-top: 10px;
+            padding-bottom: 40px;
+            background-color: black;
+            height: 180px;
+            color:black;
+            width: 100%;
+            
+        }
+        .segmento{
+            height: 200px;
+            display:flex;
+            width: 80%;
+            margin: auto;
+            padding-top: 5px;
+            background-color:#00B331;
+            border-radius: 5px;
+        }
+        .segmento img{
+            height:100px;
+            margin-top: 40px;
+
+        }
+        .aga1seg{
+            text-align: center;
+            padding-top: -10px;
+            text-shadow: 0.1px 0.1px 0.2px rgba(0, 0, 0, 0.253);
+        }
+        .parseg{
+            font-size: 1.3em;
+            text-align: center;
+            width: 60%;
+            margin:auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-shadow: 0.1px 0.1px 0.2px  rgba(0, 0, 0, 0.253);
+        }
+
+        #qsomos{
+            height: 235px;
+            background-color: black;
+        }
+        #aga1qsomos{
+            text-align: center;
+            color:#00B331;
+            text-shadow: 0.5px 0.3px white;
+            margin-bottom: 15px;
+        }
+        .qsomo{
+            margin-top: 15px;
+            color: white;
+            width: 80%;
+            margin: auto;
+            text-align:justify; 
+            height: 200px;
+            overflow-y: scroll;  
+                  
+        }
+        
+
+        #aga1contato{
+            text-align: center;
+            color:#00B331;
+            margin-bottom:10px ;
+            text-shadow: 0.5px 0.3px white;
+        }
+        #contatos{
+            padding-top: 20px;
+            height: 430px;
+            background-color: black;
+            width: 100%;
+        }
+        .contato{
+            height: 350px;
+            width: 80%;
+            margin: auto;
+            background-color: #00B331;
+            border-radius: 10px;
+            
+        }
+        #orcamento{
+            text-align:center;
+            padding-top: 20px;
+            max-width: 1023px;
+            width: 100%;
+            display: block;
+        }
+        .inp2{
+            height: 20px;
+            width: 50%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        
+        .msg{
+            height: 100px;
+            width: 50%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        #fixazap{
+            position: fixed;
+            bottom:90px ;
+            right: 100px;   
+            z-index: 999;     
+        }
+        #fixazap img{
+            height: 60px;
+        }    
+            
+        footer{
+            height: 90px;
+            background-color: white;
+            border-radius: 5px 5px 0px 0px ;
+            margin-top: -15px;
+            text-align: center;
+        }
+        #footer1{
+            display: flex;
+            height: 90px;
+            background-color:#00B331;
+            border-radius: 5px 5px 0px 0px ;
+            margin-top: -15px;
+            padding-left: 200px;
+            color: white;
+            
+        }
+        #footer1 img{
+            
+            width: 50px;
+            height: 50px;
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+        #footer1 p {
+           
+            font-size: 1.2em;
+            margin-left: 20px;
+            margin-top: 35px;
+            color: black;
+        }
+}
+
+@media screen and (min-width:1024px){
+    *{
+        
+        margin: auto;
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    main{
+        
+        margin: auto;
+    }
+    #hamb{
+        display: none;
+    }
+    #celularlogo{
+        display: none;
+    }
+    header img{
+        height: 80px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        margin-left: 180px;
+    }
+    #telamaior{
+        height: 100px;
+        background-color: #00B331;
+        display: flex;
+        width: 100%;
+    }
+
+
+    i#burguer{
+        background-color:#00B331;
+        color:white;
+        margin-top: 20px;
+        margin-left: 280px;
+        height: 50px;
+        width: 50px;
+        }
+        i#burguer:hover{
+            background-color: #00B331;
+            color: white;
+    
+        }
+        
+        menu ul{
+            list-style-type: none;
+            display: flex;
+            z-index:999;
+            width: 100%;
+            padding-left: 90px;
+        }
+        menu a{
+            display:flex;
+            padding: 10px;
+            text-decoration:none;
+            background-color:#00B331;
+            color: rgba(0, 0, 0, 0.596);
+            text-align: center;
+            margin-top: 60px;
+            margin-left: 60px;
+            border-radius:5px 5px 0px 0px;
+            
+        }
+        
+        menu > ul > li > a:hover{
+            background-color: black;
+            color:white;
+        }
+
+        #inicio{
+            
+            height: 400px;
+            width: 100%px;
+            background-repeat: no-repeat;
+            background-image: url(imagens/placassolaresgrandepx.jpg);
+            background-position-x: center;
+        }
+        #inicio1{
+            
+            height: 400px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.507);
+        }
+        #ener1{
+            padding-top: 40px;
+            margin-bottom: -20px;
+            text-align: center;
+            color:#00B331;
+            text-shadow: 0.2px 0.2px 0.1px white;
+            font-size: 3em;
+
+        }
+        #aga1inicio{
+            width: 90%;
+            text-align: center;
+            font-size: 3.5em;
+            padding-top: 15px;
+            margin-left: 55px;
+            color:white;
+                       
+        }
+        #aga1inicio li{
+            text-shadow: 1px 0.5px 0.3px black;
+            list-style: none; 
+            margin-top: 30PX;
+        }
+
+        #segmentos{
+            font-size: 1.2em;
+            padding-top: 10px;
+            padding-bottom: 40px;
+            background-color: black;
+            height: 180px;
+            color:black;
+            width: 100%;
+            
+        }
+        .segmento{
+            height: 200px;
+            display:flex;
+            width: 80%;
+            margin: auto;
+            padding-top: 5px;
+            background-color:#00B331;
+            border-radius: 5px;
+        }
+        .segmento img{
+            height:100px;
+            margin-top: 40px;
+
+        }
+        .aga1seg{
+            text-align: center;
+            padding-top: -10px;
+            text-shadow: 0.1px 0.1px 0.2px rgba(0, 0, 0, 0.253);
+        }
+        .parseg{
+            font-size: 1.3em;
+            text-align: center;
+            width: 60%;
+            margin:auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-shadow: 0.1px 0.1px 0.2px  rgba(0, 0, 0, 0.253);
+        }
+
+        #qsomos{
+            height: 235px;
+            background-color: black;
+        }
+        #aga1qsomos{
+            text-align: center;
+            color:#00B331;
+            text-shadow: 0.5px 0.3px white;
+            margin-bottom: 15px;
+        }
+        .qsomo{
+            margin-top: 15px;
+            color: white;
+            width: 80%;
+            margin: auto;
+            text-align:justify; 
+            height: 200px;
+            overflow-y: scroll;  
+                  
+        }
+        
+
+        #aga1contato{
+            text-align: center;
+            color:#00B331;
+            margin-bottom:10px ;
+            text-shadow: 0.5px 0.3px white;
+        }
+        #contatos{
+            padding-top: 20px;
+            height: 430px;
+            background-color: black;
+            width: 100%;
+        }
+        .contato{
+            height: 350px;
+            width: 80%;
+            margin: auto;
+            background-color: #00B331;
+            border-radius: 10px;
+            
+        }
+        #orcamento{
+            text-align:center;
+            padding-top: 20px;
+            max-width: 1023px;
+            width: 100%;
+            display: block;
+        }
+        .inp2{
+            height: 20px;
+            width: 50%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        
+        .msg{
+            height: 100px;
+            width: 50%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        #fixazap{
+            position: fixed;
+            bottom:90px ;
+            right: 100px;   
+            z-index: 999;     
+        }
+        #fixazap img{
+            height: 60px;
+        }    
+            
+        footer{
+            height: 90px;
+            background-color: white;
+            border-radius: 5px 5px 0px 0px ;
+            margin-top: -15px;
+            text-align: center;
+        }
+        #footer1{
+            display: flex;
+            height: 90px;
+            background-color:#00B331;
+            border-radius: 5px 5px 0px 0px ;
+            margin-top: -15px;
+            padding-left: 200px;
+            color: white;
+            
+        }
+        #footer1 img{
+            
+            width: 50px;
+            height: 50px;
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+        #footer1 p {
+           
             font-size: 1.2em;
             margin-left: 20px;
             margin-top: 35px;
