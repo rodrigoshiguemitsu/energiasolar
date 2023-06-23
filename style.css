@@ -19,10 +19,11 @@
     }
     header img{
         height: 50px;
-        margin-top: 3px;
-        padding-bottom: -2px;
-        padding-top: 3px;
-        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        margin-left: 40px;
     }
 
 
@@ -143,7 +144,7 @@
         }
 
         #qsomos{
-            height: 500px;
+            height: 235px;
             background-color: black;
         }
         #aga1qsomos{
@@ -154,14 +155,57 @@
         }
         .qsomo{
             margin-top: 15px;
-        
             color: white;
             width: 80%;
             margin: auto;
             text-align:justify; 
             height: 200px;
-            overflow-y: scroll;           
+            overflow-y: scroll;  
+                  
         }
         
+
+        #aga1contato{
+            text-align: center;
+            color:#00B331;
+            margin-bottom:10px ;
+            text-shadow: 0.5px 0.3px white;
+        }
+        #contatos{
+            padding-top: 20px;
+            height: 430px;
+            background-color: black;
+            width: 100%;
+        }
+        .contato{
+            height: 350px;
+            width: 80%;
+            margin: auto;
+            background-color: #00B331;
+            border-radius: 10px;
+        }
+        #orcamento{
+            text-align: center;
+        }
+
+
+
+        footer{
+            height: 150px;
+            background-color: white;
+            border-radius: 5px 5px 0px 0px ;
+            padding-top: 10px;
+            margin-top: -15px;
+        }
+        #footer1{
+            height: 150px;
+            background-color: rgba(0, 0, 0, 0.918);
+            border-radius: 5px 5px 0px 0px ;
+            padding-top: 10px;
+            margin-top: -15px;
+            color: white;
+            text-align: center;
+        }
+        }
 
 }
