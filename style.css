@@ -112,8 +112,8 @@
             height: 115px;
             color:black;
             width: 100%;
+            
         }
-        
         .segmento{
             display:flex;
             width: 80%;
@@ -140,6 +140,27 @@
             padding-top: 10px;
             padding-bottom: 10px;
             text-shadow: 0.1px 0.1px 0.2px  rgba(0, 0, 0, 0.253);
+        }
+
+        #qsomos{
+            height: 500px;
+            background-color: black;
+        }
+        #aga1qsomos{
+            text-align: center;
+            color:#00B331;
+            text-shadow: 0.5px 0.3px white;
+            margin-bottom: 15px;
+        }
+        .qsomo{
+            margin-top: 15px;
+        
+            color: white;
+            width: 80%;
+            margin: auto;
+            text-align:justify; 
+            height: 200px;
+            overflow-y: scroll;           
         }
         
 
