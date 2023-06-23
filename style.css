@@ -183,10 +183,31 @@
             margin: auto;
             background-color: #00B331;
             border-radius: 10px;
+            
         }
         #orcamento{
-            text-align: center;
+            text-align:center;
+            padding-top: 20px;
+            max-width: 767px;
+            width: 100%;
+            display: block;
         }
+        .inp2{
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        
+        .msg{
+            height: 100px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        
+        
+       
+        
 
 
 
