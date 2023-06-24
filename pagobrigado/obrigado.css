@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 767px) {
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    
+    main{
+        background-image: url(../imagens/placassolares767px.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: inherit;
+        height: 548px;
+    }
+    #sessao1{
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.534);
+        height: 548px;
+        width: 100%;
+        margin: auto;
+    }
+    h1{
+        padding-top: 200px;
+    }
+    h2{
+        padding-bottom: 20px;
+    }
+    
+    h3 a {
+        text-decoration: none;
+        color:black;
+        margin-top: 250px;
+        background-color: #00B331;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 10px;
+        padding:10px;
+
+    }
+}
